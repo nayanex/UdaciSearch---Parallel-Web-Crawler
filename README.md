@@ -436,3 +436,15 @@ Make sure you have completed all the rubric items [here](https://review.udacity.
 ## Submit your Project
 
 You can submit your project by uploading a zip file or selecting your GitHub repo on the Udacity website.
+
+## Install Maven on MacOs
+
+https://www.digitalocean.com/community/tutorials/install-maven-mac-os
+
+### Setting up Maven in PATH
+
+do in .zshrc and .bash_profile
+```bash
+export PATH="/Users/<username>/Downloads/apache-maven-3.9.3/bin:$PATH"
+```
+
