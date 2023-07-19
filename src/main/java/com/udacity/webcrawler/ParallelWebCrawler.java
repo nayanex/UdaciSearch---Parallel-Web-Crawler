@@ -22,9 +22,6 @@ import java.util.stream.Collectors;
  * {@link ForkJoinPool} to fetch and process multiple web pages in parallel.
  */
 final class ParallelWebCrawler implements WebCrawler {
-
-  private static final int DEFAULT_WORD_COUNT_THRESHOLD = 100;
-
   private final Clock clock;
   private final PageParserFactory parserFactory;
   private final Duration timeout;
