@@ -45,7 +45,6 @@ public final class WebCrawlerMain {
       // Print the crawl results to System.out
       Writer writer = new BufferedWriter(new OutputStreamWriter(System.out));
       resultWriter.write(writer);
-      writer.flush(); // Flush the writer to ensure all data is written
     }
 
     // TODO: Write the profile data to a text file (or System.out if the file name is empty)
